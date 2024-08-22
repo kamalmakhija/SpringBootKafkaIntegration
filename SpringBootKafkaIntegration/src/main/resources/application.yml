@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9093
+    properties:
+      security.protocol: SSL
+      ssl.keystore.location: C:/Users/Kamal/ssl-certs/kafka.server.keystore.jks
+      ssl.keystore.password: kamalm
+      ssl.key.password: kamal
+      ssl.truststore.location: C:/Users/Kamal/ssl-certs/kafka.server.truststore.jks
+      ssl.truststore.password: kamalm
+      ssl.endpoint.identification.algorithm:
